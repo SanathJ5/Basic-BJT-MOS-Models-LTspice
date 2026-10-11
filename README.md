@@ -25,7 +25,7 @@ An editable library of basic MOSFET and BJT subcircuits designed specifically fo
 
 ##  Academic Purpose
 
-This library was created to bridge the gap between theoretical textbook equations and practical circuit simulation. By exposing key physical and electrical parameters clearly, it helps students visualize how variations in geometry and process parameters affect device and circuit performance (e.g., DC sweeps, transient response, and AC small-signal analysis).
+This library was created to bridge the gap between theoretical textbook equations and practical circuit simulation. This library has only the essential textbook parameters so you can verify your calculations using DC sweeps, transient response, and AC small-signal analysis.
 
 ##  Contributing & Support
 

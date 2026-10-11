@@ -1,0 +1,5 @@
+* Fully Editable Simple NMOS Model
+.subckt Simple_NMOS D G S B params: vth=0.7 kp=100u w=10u l=1u lam=0.02 rd=0 rs=0
+.model local_model NMOS(Vto={vth} Kp={kp} Lambda={lam} Rd={rd} Rs={rs})
+M1 D G S B local_model W={w} L={l}
+.ends Simple_NMOS

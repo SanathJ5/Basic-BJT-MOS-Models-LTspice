@@ -4,6 +4,11 @@ An editable library of basic MOSFET and BJT subcircuits designed specifically fo
 
 ## Editable model parameters
 
+<img width="1291" height="924" alt="image" src="https://github.com/user-attachments/assets/50aa9733-dc04-420b-bb4b-db9553659dfd" />
+
+
+
+
 | Parameter | Description | Default (Simple_NMOS) | Default (Simple_PMOS) |
 | :--- | :--- | :--- | :--- |
 | `vth` | Threshold Voltage | 1 V | -1 V |
@@ -14,6 +19,7 @@ An editable library of basic MOSFET and BJT subcircuits designed specifically fo
 | `rd` | Drain Parasitic Resistance | 0 Ω | 0 Ω |
 | `rs` | Source Parasitic Resistance | 0 Ω | 0 Ω |
 
+<img width="924" height="755" alt="image" src="https://github.com/user-attachments/assets/207fc995-69c9-43bb-a6bf-927eac609259" />
 
 ##  Quick Start Guide
 

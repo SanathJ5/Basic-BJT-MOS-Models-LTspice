@@ -17,7 +17,7 @@ An editable library of basic MOSFET and BJT subcircuits designed specifically fo
 
 ##  Quick Start Guide
 
-1. Paste the contents of the sym folder to Documents\LTspice\lib\sym  
+1. Clone this repo and extract the sym folder to Documents\LTspice\lib\  
 2. Open LTspice, press P for adding components, search for [lib] and select the appropriate transistor  
 3. Right clicking the symbol will allow you to change the parameters   
 4. Thats all! Thank you  

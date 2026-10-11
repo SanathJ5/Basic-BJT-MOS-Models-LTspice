@@ -1,0 +1,36 @@
+# Simple SPICE MOSFET and BJT Models
+
+An editable library of basic MOSFET and BJT subcircuits designed specifically for academic coursework, introductory VLSI/circuit design, and rapid SPICE simulation.
+
+## Editable model parameters
+
+| Parameter | Description | Default (Simple_NMOS) | Default (Simple_PMOS) |
+| :--- | :--- | :--- | :--- |
+| `vth` | Threshold Voltage | 1 V | -1 V |
+| `kp` | Transconductance Parameter | 100 µA/V² | 100 µA/V² |
+| `w` | Channel Width | 100 µm | 100 µm |
+| `l` | Channel Length | 10 µm | 10 µm |
+| `lam` | Channel-Length Modulation | 0 | 0 |
+| `rd` | Drain Parasitic Resistance | 0 Ω | 0 Ω |
+| `rs` | Source Parasitic Resistance | 0 Ω | 0 Ω |
+
+
+##  Quick Start Guide
+
+1. Paste the contents of the sym folder to Documents\LTspice\lib\sym  
+2. Open LTspice, press P for adding components, search for [lib] and select the appropriate transistor  
+3. Right clicking the symbol will allow you to change the parameters   
+4. Thats all! Thank you  
+
+
+##  Academic Purpose
+
+This library was created to bridge the gap between theoretical textbook equations and practical circuit simulation. By exposing key physical and electrical parameters clearly, it helps students visualize how variations in geometry and process parameters affect device and circuit performance (e.g., DC sweeps, transient response, and AC small-signal analysis).
+
+##  Contributing & Support
+
+Feel free to fork, open issues, or submit pull requests if you have suggestions for enhancements or educational extensions.
+
+##  License
+
+This project is open-source and free to use for educational and academic purposes under the MIT License.
